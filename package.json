@@ -1,0 +1,21 @@
+{
+  "name": "disty-server",
+  "version": "0.0.1",
+  "description": "A server for disty",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Alexandre \"Hx\" Rozier",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.3",
+    "supertest": "^3.0.0"
+  }
+}

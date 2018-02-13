@@ -29,7 +29,7 @@ describe('Tests server', () => {
 
     var user_id;
 
-    after(() => {
+    before(() => {
       server.getDB(db_test_name).collection('users').drop()
     })
 

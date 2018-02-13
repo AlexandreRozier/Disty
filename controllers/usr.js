@@ -1,7 +1,6 @@
 var express = require('express')
 var bodyParser = require('body-parser')
 var ObjectId = require('mongodb').ObjectID;
-
 module.exports = db => {
 	
 	var app = express()
